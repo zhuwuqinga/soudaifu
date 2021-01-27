@@ -1,0 +1,262 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/choiseDoc/choiseDoc",
+			"style": {
+				"navigationBarTitleText": "选择专家"
+			}
+		}, {
+			"path": "pages/choiseDocDetail/choiseDocDetail",
+			"style": {
+				"navigationBarTitleText": "选择专家详情"
+			}
+		}, {
+			"path": "pages/diseaseDescription/diseaseDescription",
+			"style": {
+				"navigationBarTitleText": "描述病情"
+			}
+		}, {
+			"path": "pages/confirmDescription/confirmDescription",
+			"style": {
+				"navigationBarTitleText": "确认问诊"
+			}
+		}, {
+			"path": "pages/consultingRoom/consultingRoom",
+			"style": {
+				"navigationBarTitleText": "医生诊室"
+			}
+		}, {
+			"path": "pages/docDetail/docDetail",
+			"style": {
+				"navigationBarTitleText": "医生详情"
+			}
+		}, {
+			"path": "pages/registration/registration",
+			"style": {
+				"navigationBarTitleText": "挂号"
+			}
+		}, {
+			"path": "pages/editPerson/editPerson",
+			"style": {
+				"navigationBarTitleText": "就诊人"
+			}
+		}, {
+			"path": "pages/personList/personList",
+			"style": {
+				"navigationBarTitleText": "选择就诊人"
+			}
+		}, {
+			"path": "pages/choiceRoom/choiceRoom",
+			"style": {
+				"navigationBarTitleText": "选择科室"
+			}
+		}, {
+			"path": "pages/choiseDoc2/choiseDoc2",
+			"style": {
+				"navigationBarTitleText": "选择医生"
+			}
+		}, {
+			"path": "pages/choiseDoc3/choiseDoc3",
+			"style": {
+				"navigationBarTitleText": "选择医生"
+			}
+		}, {
+			"path": "pages/confirmNum/confirmNum",
+			"style": {
+				"navigationBarTitleText": "确认就诊"
+			}
+		},
+		{
+			"path": "pages/recomDoctor/recomDoctor",
+			"style": {
+				"navigationBarTitleText": "推荐医生"
+			}
+		},
+		{
+			"path": "pages/health/health",
+			"style": {
+				"navigationBarTitleText": "健康"
+			}
+		}, {
+			"path": "pages/hotList/hotList",
+			"style": {
+				"navigationBarTitleText": "热门话题"
+			}
+		}, {
+			"path": "pages/hotDetail/hotDetail",
+			"style": {
+				"navigationBarTitleText": "热门话题"
+			}
+		}, {
+			"path": "pages/special/special",
+			"style": {
+				"navigationBarTitleText": "专家专刊"
+			}
+		}, {
+			"path": "pages/quanwei/quanwei",
+			"style": {
+				"navigationBarTitleText": "权威期刊"
+			}
+		}, {
+			"path": "pages/articleDetail/articleDetail",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		}, {
+			"path": "pages/news/newsList",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/user/editNickName",
+			"style": {
+				"navigationBarTitleText": "修改昵称"
+			}
+		}, {
+			"path": "pages/user/setUser",
+			"style": {
+				"navigationBarTitleText": "我的信息"
+			}
+		}, {
+			"path": "pages/user/setPwd",
+			"style": {
+				"navigationBarTitleText": "设置密码"
+			}
+		}, {
+			"path": "pages/user/setPwd2",
+			"style": {
+				"navigationBarTitleText": "设置密码"
+			}
+		},{
+			"path": "pages/myInquiry/myInquiry",
+			"style": {
+				"navigationBarTitleText": "我的问诊"
+			}
+		},{
+			"path": "pages/myInquiry/detail",
+			"style": {
+				"navigationBarTitleText": "我的问诊"
+			}
+		},{
+			"path": "pages/myInquiry/refund",
+			"style": {
+				"navigationBarTitleText": "申请退款"
+			}
+		},{
+			"path": "pages/myInquiry/chatRoom",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},{
+			"path": "pages/myMember/myMember",
+			"style": {
+				"navigationBarTitleText": "我的挂号"
+			}
+		}, {
+			"path": "pages/myFollow/myFollow",
+			"style": {
+				"navigationBarTitleText": "我的随访"
+			}
+		}, {
+			"path": "pages/myWarning/myWarning",
+			"style": {
+				"navigationBarTitleText": "我的提醒"
+			}
+		}, {
+			"path": "pages/myCollect/myCollect",
+			"style": {
+				"navigationBarTitleText": "关注收藏"
+			}
+		},
+		{
+			"path": "pages/patient/patient",
+			"style": {
+				"navigationBarTitleText": "就诊人管理"
+			}
+		},
+		{
+			"path": "pages/inquiry/inquiry",
+			"style": {
+				"navigationBarTitleText": "问诊"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/setPass/setPass",
+			"style": {
+				"navigationBarTitleText": "设置密码"
+			}
+		},{
+			"path": "pages/healthRecord/healthRecord",
+			"style": {
+				"navigationBarTitleText": "健康档案"
+			}
+		},{
+			"path": "pages/healthRecord/caseHistory",
+			"style": {
+				"navigationBarTitleText": "我的病历"
+			}
+		},{
+			"path": "pages/healthRecord/addMedical",
+			"style": {
+				"navigationBarTitleText": "新建病历"
+			}
+		},{
+			"path": "pages/healthRecord/editHealth",
+			"style": {
+				"navigationBarTitleText": "基本健康信息"
+			}
+		},{
+			"path": "pages/healthRecord/addDisease",
+			"style": {
+				"navigationBarTitleText": "基本健康信息"
+			}
+		},{
+			"path": "pages/healthRecord/editMedical",
+			"style": {
+				"navigationBarTitleText": "编辑病历"
+			}
+		},{
+			"path": "pages/healthRecord/myDoctor",
+			"style": {
+				"navigationBarTitleText": "我的医生"
+			}
+		}
+		
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	}
+}

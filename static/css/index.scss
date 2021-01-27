@@ -1,0 +1,194 @@
+.container{
+	padding-bottom: 130rpx;
+}
+.header{
+	border-bottom: 1rpx solid #eee;
+	background: #fff;
+	.header_address{
+		width: 32rpx;
+		height: 32rpx;
+	}
+	.header_picker{
+		line-height: 32rpx;
+		margin-left: 14rpx;
+		.text_more{
+			display: inline-block;
+			font-size: 22rpx;
+			width: 72rpx;
+		}
+		image{
+			width: 16rpx;
+			height: 9rpx;
+			margin-left: 12rpx;
+			position: relative;
+			// top: -4rpx;
+		}
+	}
+	.header_search{
+		margin-left: 20rpx;
+		width: 345rpx;
+		padding: 0 20rpx;
+		height: 50rpx;
+		background: #F1F1F1;
+		border-radius: 25rpx;
+		image{
+			width: 25rpx;
+			height: 25rpx;
+			margin-left: auto;
+			margin-right: 20rpx;
+		}
+		input{
+			width: 50%;
+			font-size: 24rpx;
+		}
+		.place_holder{
+			font-size: 24rpx;
+			color: #B3B3B3;
+		}
+	}
+	.header_sm{
+		width: 33rpx;
+		height: 32rpx;
+		margin-left: auto;
+	}
+	.header_contact{
+		width: 41rpx;
+		height: 36rpx;
+		margin-left: 30rpx;
+	}
+}
+
+.welcome{
+	background: #fff;
+	padding: 24rpx;
+	font-size: 32rpx;
+	line-height: 1;
+	.flex_y_center{
+		image{
+			width: 12rpx;
+			height: 22rpx;
+			margin-left: 24rpx;
+		}
+	}
+	.wel_txt{
+		margin-left: auto;
+	}
+}
+.banner{
+	padding: 0 24rpx;
+	position: relative;
+	margin-top: 20rpx;
+	swiper{
+		width: 100%;
+		height: 200rpx;
+		.swiper-item{
+			width: 100%;
+			height: 100%;
+		}
+		image{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.tips{
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 0 30rpx;
+		height: 64rpx;
+		line-height: 64rpx;
+		background: #C4FFF5;
+		color: #03B091;
+		font-size: 24rpx;
+		border-radius: 0 32rpx 32rpx 0;
+		z-index: 1;
+	}
+	
+}
+.ad_list{
+	padding: 20rpx 26rpx;
+	background: #fff;
+	margin-top: 20rpx;
+	image{
+		width: 342rpx;
+		height: 140rpx;
+		border-radius: 10rpx;
+	}
+}
+.server{
+	padding: 30rpx 0;
+	background: #fff;
+	margin-top: 20rpx;
+	.s_title{
+		font-size: 28rpx;
+		font-family: FZQingKeBenYueSongS-R-GB;
+		font-weight: bold;
+		.s_circle{
+			width: 10rpx;
+			height: 10rpx;
+			border: 4rpx solid #999999;
+			border-radius: 50%;
+			margin-left: 10rpx;
+		}
+		.s_circle2{
+			width: 10rpx;
+			height: 10rpx;
+			border: 4rpx solid #999999;
+			border-radius: 50%;
+			margin-right: 10rpx;
+		}
+	}
+	.server_list{
+		margin-top: 24rpx;
+		.flex_all_center2{
+			width: 25%;
+			image{
+				width: 106rpx;
+				height: 106rpx;
+			}
+			view{
+				font-size: 24rpx;
+				color: #666;
+				margin-top: 20rpx;
+			}
+		}
+	}
+	.news_list{
+		padding: 0 26rpx;
+		overflow: hidden;
+		.news_item{
+			margin-top: 24rpx;
+			.ni_left{
+				width: 420rpx;
+				.text_more2{
+					font-size: 28rpx;
+					line-height: 40rpx;
+					height: 80rpx;
+				}
+				.flex_y_center{
+					margin-top: 30rpx;
+					color: #999;
+					.docter_name{
+						font-size: 20rpx;
+					}
+					.flex_y_center{
+						margin-top: 0rpx;
+						margin-left: auto;
+						font-size: 20rpx;
+						image{
+							width: 32rpx;
+							height: 32rpx;
+							margin-right: 6rpx;
+						}
+					}
+				}
+			}
+			.ni_right{
+				width: 224rpx;
+				height: 146rpx;
+				border: 1rpx solid #DEDEDE;
+				margin-left: auto;
+			}
+		}
+	}
+}

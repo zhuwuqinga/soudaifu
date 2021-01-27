@@ -1,0 +1,62 @@
+.list{
+	padding-bottom: 138rpx;
+	.item{
+		background: #fff;
+		padding: 40rpx;
+		.circle{
+			width: 38rpx;
+			height: 38rpx;
+		}
+		.center{
+			margin-left: 30rpx;
+			font-size: 28rpx;
+			.flex_y_center{
+				line-height: 1;
+				.name{
+					font-size: 34rpx;
+					font-weight: bold;
+					margin-right: 50rpx;
+				}
+			}
+			.center_bot{
+				margin-top: 30rpx;
+				
+			}
+			.center_bot view:not(:first-child){
+				margin-left: 40rpx;
+			}
+		}
+		.btn_list{
+			margin-left: auto;
+			image{
+				width: 50rpx;
+				height: 50rpx;
+			}
+		}
+	}
+}
+.list .item:not(:last-child){
+	border-bottom: 1rpx solid #ededed;
+}
+.btn_box{
+	padding: 20rpx 30rpx;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 690rpx;
+	.flex_all_center{
+		width: 100%;
+		height: 78rpx;
+		background: linear-gradient(135deg, #2ECFAF, #29BDCB);
+		box-shadow: 0px 0px 30rpx 0px rgba(0, 0, 0, 0.1);
+		border-radius: 39rpx;
+		font-size: 28rpx;
+		color: #fff;
+		image{
+			width: 30rpx;
+			height: 30rpx;
+			margin-right: 20rpx;
+		}
+	}
+}

@@ -1,0 +1,44 @@
+.list{
+	padding-bottom: 138rpx;
+	.item{
+		padding: 0rpx 40rpx;
+		background: #fff;
+		height: 90rpx;
+		.title{
+			font-size: 28rpx;
+			
+		}
+		image{
+			margin-left: auto;
+		}
+		.patient_name{
+			padding: 0rpx 10rpx;
+			border: 1rpx solid #00BE72;
+			border-radius: 4rpx;
+			font-size: 20rpx;
+			color: #00BE72;
+			text-align: center;
+			margin-left: 20rpx;
+		}
+	}
+}
+.list .item:not(:first-child){
+	margin-top: 10rpx;
+}
+.btn_box{
+	padding: 20rpx 30rpx;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 690rpx;
+	.flex_all_center{
+		width: 100%;
+		height: 78rpx;
+		background: linear-gradient(135deg, #2ECFAF, #29BDCB);
+		box-shadow: 0px 0px 30rpx 0px rgba(0, 0, 0, 0.1);
+		border-radius: 39rpx;
+		font-size: 28rpx;
+		color: #fff;
+	}
+}

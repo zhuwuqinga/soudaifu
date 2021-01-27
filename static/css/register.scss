@@ -1,0 +1,84 @@
+page{
+	background: #ffffff !important;
+}
+
+.r_title{
+	padding: 100rpx 70rpx;
+	font-size: 48rpx;
+}
+.register_box{
+	width: 600rpx;
+	margin: 0 auto;
+	.flex_y_center:not(:last-child){
+		border-bottom: 1rpx solid #c8c8c8;
+	}
+	.flex_y_center{
+		padding: 30rpx 0;
+		font-size: 28rpx;
+		.dis_code{
+			font-size: 26rpx;
+			padding-right: 24rpx;
+			border-right: 1rpx solid #999;
+		}
+		.phone{
+			margin-left: 24rpx;
+			width: 512rpx;
+		}
+		input{
+			font-size: 28rpx;
+		}
+		.left_inp{
+			width: 400rpx;
+		}
+		.getCode{
+			font-size: 24rpx;
+			color: #00BE72;
+			margin-left: auto;
+		}
+		.codeImg{
+			width: 110rpx;
+			height: 46rpx;
+			margin-left: auto;
+		}
+		.circle{
+			width: 38rpx;
+			height: 38rpx;
+		}
+		.tips{
+			margin-left: 20rpx;
+			width: 542rpx;
+			navigator{
+				display: inline;
+				color: #00BE72;
+			}
+		}
+	}
+	.sp_input{
+		padding: 30rpx 0;
+		font-size: 28rpx;
+		border-bottom: 1rpx solid #c8c8c8;
+	}
+}
+.submit_btn{
+	width: 600rpx;
+	margin: 0 auto;
+	height: 78rpx;
+	text-align: center;
+	line-height: 78rpx;
+	color: #fff;
+	margin-top: 20rpx;
+	background: linear-gradient(135deg, #2ECFAF, #29BDCB);
+	box-shadow: 0px 0px 30rpx 0px rgba(0, 0, 0, 0.1);
+	border-radius: 39rpx;
+}
+.submit_btn1{
+	width: 600rpx;
+	margin: 0 auto;
+	height: 78rpx;
+	text-align: center;
+	line-height: 78rpx;
+	color: #333;
+	margin-top: 20rpx;
+	background: #fff;
+	border-radius: 39rpx;
+}

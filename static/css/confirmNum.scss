@@ -1,0 +1,115 @@
+page{
+	padding-bottom: 118rpx;
+	overflow:hidden
+}
+.list{
+	.item:not(:first-child){
+		border-top: 1rpx solid #eee;
+	}
+	.item{
+		padding: 36rpx;
+		font-size: 28rpx;
+		background: #fff;
+	}
+}
+.info_box{
+	padding: 30rpx 0;
+	.line_box{
+		view{
+			width: 58rpx;
+			height: 1rpx;
+			background: #CBCBCB;
+		}
+	}
+	.info_title{
+		margin: 0 20rpx;
+		font-size: 28rpx;
+		color: #666;
+	}
+}
+.list2{
+	padding: 0 24rpx;
+	background: #fff;
+	.flex_y_center{
+		padding: 30rpx 12rpx;
+		font-size: 28rpx;
+	}
+	.flex_y_center:not(:first-child){
+		border-top: 1rpx solid #eee;
+	}
+}
+.tips{
+	padding: 36rpx;
+	font-size: 24rpx;
+	color: #999;
+	line-height: 38rpx;
+}
+.btn_box{
+	padding: 20rpx 30rpx;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 690rpx;
+	.flex_all_center{
+		width: 100%;
+		height: 78rpx;
+		background: linear-gradient(135deg, #2ECFAF, #29BDCB);
+		box-shadow: 0px 0px 30rpx 0px rgba(0, 0, 0, 0.1);
+		border-radius: 39rpx;
+		font-size: 28rpx;
+		color: #fff;
+	}
+}
+.cups{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.6);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.cup_box{
+	position: fixed;
+	bottom: 60rpx;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.pay_box{
+	width: 720rpx;
+	background: #fff;
+	border-radius: 24rpx;
+	.pay_item:not(:first-child){
+		border-top: 1rpx solid #F1F1F1;
+	}
+	.pay_item{
+		padding: 26rpx 70rpx;
+		font-size: 30rpx;
+		color: #666;
+		.flex_all_center{
+			width: 48rpx;
+			height: 46rpx;
+			margin-right: 30rpx;
+			image{
+				display: block;
+			}
+		}
+		.pay_price{
+			margin-left: auto;
+			color: #00BE72;
+		}
+	}
+}
+.cancel{
+	width: 720rpx;
+	height: 92rpx;
+	background: #FFFFFF;
+	border-radius: 24rpx;
+	text-align: center;
+	line-height: 92rpx;
+	font-size: 34rpx;
+	color: #999;
+	margin-top: 14rpx;
+}
+	

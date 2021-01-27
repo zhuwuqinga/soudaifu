@@ -1,0 +1,159 @@
+.tab_list{
+	width: 100%;
+	height: 80rpx;
+	background: #fff;
+	white-space: nowrap;
+	position: fixed;
+	z-index: 9;
+	.tab_item{
+		font-size: 28rpx;
+		width: 20%;
+		line-height: 80rpx;
+		text-align: center;
+		display: inline-block;
+		.tab_title{
+			display: inline-block;
+			height: 76rpx;
+		}
+		.tab_title.active{
+			border-bottom: 4rpx solid #29BDCB;
+		}
+		.tab_num{
+			width: 30rpx;
+			height: 30rpx;
+			line-height: 30rpx;
+			text-align: center;
+			background: #F7610B;
+			color: #fff;
+			font-size: 24rpx;
+			border-radius: 50%;
+			position: absolute;
+			top: 10rpx;
+			right: 10rpx;
+		}
+	}
+}
+.inquiry_list{
+	padding: 110rpx 30rpx 30rpx 30rpx;
+	.inquiry_item:not(:first-child){
+		margin-top: 30rpx;
+	}
+	.inquiry_item{
+		padding: 30rpx 24rpx;
+		background: #fff;
+		position: relative;
+		.interval_num{
+			position: absolute;
+			top: 100rpx;
+			right: 24rpx;
+			font-size: 22rpx;
+			color: #29BDCB;
+		}
+		.item_top{
+			padding-bottom: 30rpx;
+			border-bottom: 1rpx solid #dedede;
+			.inquiry_avt{
+				width: 48rpx;
+				height: 48rpx;
+				border-radius: 50%;
+			}
+			.inquiry_name{
+				font-size: 30rpx;
+				margin-left: 20rpx;
+			}
+			.inquiry_hospital{
+				font-size: 20rpx;
+				margin:0 20rpx;
+				color: #999;
+			}
+			.inquiry_right{
+				width: 9rpx;
+				height: 16rpx;
+			}
+			.inquiry_yao{
+				margin-left: auto;
+				width: 44rpx;
+				height: 44rpx;
+				background: #00BE72;
+				color: #fff;
+				font-size: 24rpx;
+				font-weight: 500;
+				border-radius: 8rpx;
+				text-align: center;
+				line-height: 44rpx;
+			}
+			.member_status{
+				font-size: 28rpx;
+				font-weight: 500;
+				margin-left: auto;
+			}
+		}
+		.item_bottom{
+			padding-bottom: 30rpx;
+			border-bottom: 1rpx solid #f1f1f1;
+			.ib_title{
+				font-size: 30rpx;
+				// margin-top: 76rpx !important;
+				.ibt_right{
+					margin-left: auto;
+					font-size: 24rpx;
+				}
+				.ibt_time{
+					margin-left: auto;
+					font-size: 24rpx;
+					color: #00BE72;
+				}
+			}
+			.flex_y_center{
+				font-size: 28rpx;
+				margin-top: 30rpx;
+				.i_title{
+					color: #666;
+					width: 160rpx;
+					text-align: justify;
+				}
+				.text_more{
+					width: 500rpx;
+					margin-left: 20rpx;
+				}
+			}
+			.interval{
+				font-size: 24rpx;
+				.interval_rihgt{
+					color: #00BE72;
+				}
+			}
+		}
+		.btn_list{
+			padding-top: 30rpx;
+			font-size: 24rpx;
+			.btns{
+				.inquiry_btn:not(:first-child){
+					margin-left: 20rpx;
+				}
+				margin-left: auto;
+				.mrl20{
+					margin-left: 20rpx;
+				}
+				.inquiry_btn{
+					width: 146rpx;
+					height: 50rpx;
+					text-align: center;
+					line-height: 50rpx;
+					border-radius: 30rpx;
+					border: 1rpx solid #C8C8C8;
+				}
+				.inquiry_btn.active{
+					border: 0rpx !important;
+					width: 150rpx !important;
+					height: 54rpx !important;
+					background: linear-gradient(135deg, #2ECFAF, #29BDCB);
+					color: #fff;
+					line-height: 54rpx;
+				}
+			}
+			
+		}
+		
+	}
+}
